@@ -9,5 +9,12 @@ class PatientListCreateView(ListCreateAPIView):
 
 
 class ConsultationListCreateView(ListCreateAPIView):
-    queryset = Consultation.objects.all()
     serializer_class = ConsultationSerializer
+
+    def get_queryset(self):
+        queryset = Consultation.objects.all()
+        patient_id = self.request.query_params.get("patient_id")
+        if patient_id:
+            queryset = queryset.filter(patient=patient_id)
+
+        return queryset

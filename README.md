@@ -21,7 +21,7 @@ A Django-based application for managing patient consultations with AI-powered su
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/shehab0717/docspert-task.git
    cd docspert_task
    ```
 
@@ -50,7 +50,7 @@ The application will be available at `http://localhost:8000`.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/shehab0717/docspert-task.git
    cd docspert_task
    ```
 

@@ -119,9 +119,3 @@ The frontend will make API calls to the Django server running on port 8000.
 - `DJANGO_SUPERUSER_EMAIL`: Admin email
 - `DJANGO_SUPERUSER_PASSWORD`: Admin password
 - `OPENAI_API_KEY`: OpenAI API key for AI summaries
-
-## Development
-
-- Run tests: `python manage.py test`
-- Collect static files: `python manage.py collectstatic` (for production)</content>
-<parameter name="filePath">d:\projects\docspert_task\README.md
